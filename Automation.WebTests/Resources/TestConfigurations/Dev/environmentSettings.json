@@ -1,0 +1,32 @@
+{
+  "Databases": {
+    "Sql": {
+      "ConnectionStrings": {
+        "SqlDb": "#{dev-sql-connection-string}#"
+      }
+    }
+  },
+  "HttpClient": {
+    "Commify": {
+      "Endpoints": {
+        "Host": "$(Host)",
+        "Users": "/commify/api/v1/Users/"
+      },
+      "Parameters": {
+        "AuthorizationToken": "#{rbac-dev-user-token}#",
+        "TestAutomationUser1_Username": "TEST_ACCOUNT_1@commify.com"
+      }
+    }
+  },
+  "UI": {
+    "Commify": {
+      "Parameters": {
+        "Host": "$(Host)",
+        "TestAutomationUser1_Username": "TEST_ACCOUNT_1@commify.com",
+        "TestAutomationUser1_Username_Short": "TEST_ACCOUNT_1",
+        "TestAutomationUser1_Password": "#{TEST_ACCOUNT_1_PASSWORD}#",
+        "Headless": "false"
+      }
+    }
+  }
+}

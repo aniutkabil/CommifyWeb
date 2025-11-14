@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Core", "Automation.Core\Automation.Core.csproj", "{137A54F0-AD63-42E1-8501-DB6A652ED82F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.UI", "Automation.UI\Automation.UI.csproj", "{70409652-4777-42D6-A41C-509A80E77598}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Infrastructure", "Automation.Infrastructure\Automation.Infrastructure.csproj", "{60478748-9C3A-419D-B763-67D4226E4F2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.API", "Automation.API\Automation.API.csproj", "{AE879DEC-7C3C-495F-A7C7-023B8B267DD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.WebTests", "Automation.WebTests\Automation.WebTests.csproj", "{A334863D-6703-4D3D-826F-4574342D0CF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.DataModels", "Automation.DataModels\Automation.DataModels.csproj", "{FBF4ED58-0FB3-4F7E-AC3E-AB00DCF7422E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{137A54F0-AD63-42E1-8501-DB6A652ED82F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137A54F0-AD63-42E1-8501-DB6A652ED82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137A54F0-AD63-42E1-8501-DB6A652ED82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137A54F0-AD63-42E1-8501-DB6A652ED82F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70409652-4777-42D6-A41C-509A80E77598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70409652-4777-42D6-A41C-509A80E77598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70409652-4777-42D6-A41C-509A80E77598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70409652-4777-42D6-A41C-509A80E77598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60478748-9C3A-419D-B763-67D4226E4F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60478748-9C3A-419D-B763-67D4226E4F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60478748-9C3A-419D-B763-67D4226E4F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60478748-9C3A-419D-B763-67D4226E4F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE879DEC-7C3C-495F-A7C7-023B8B267DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE879DEC-7C3C-495F-A7C7-023B8B267DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE879DEC-7C3C-495F-A7C7-023B8B267DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE879DEC-7C3C-495F-A7C7-023B8B267DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A334863D-6703-4D3D-826F-4574342D0CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A334863D-6703-4D3D-826F-4574342D0CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A334863D-6703-4D3D-826F-4574342D0CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A334863D-6703-4D3D-826F-4574342D0CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF4ED58-0FB3-4F7E-AC3E-AB00DCF7422E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF4ED58-0FB3-4F7E-AC3E-AB00DCF7422E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF4ED58-0FB3-4F7E-AC3E-AB00DCF7422E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF4ED58-0FB3-4F7E-AC3E-AB00DCF7422E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {361055AC-F7A4-4F54-93CB-2B4997209336}
+	EndGlobalSection
+EndGlobal

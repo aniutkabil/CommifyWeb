@@ -1,0 +1,17 @@
+﻿{
+  "runtime": {
+    "missingOrPendingStepsOutcome": "Error",
+    "stopOnFirstFailure": false,
+    "trace": "Off"
+  },
+  "generator": {
+    "plugins": [],
+    "outputPath": "Features.Generated",
+    "embedFeatureFiles": true
+  },
+  "features": {
+    "globbing": [
+      "Features/**/*.feature"
+    ]
+  }
+}
